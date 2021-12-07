@@ -1,6 +1,10 @@
 class home_page{
-    getPhones_button(){
-        return cy.get()
+    get getPhones_button(){
+        return (`[onclick="byCat('phone')"]`)        
     }
+    get getLogIn_button(){
+        return ('#login2')
+    }
+
 }
 export default home_page
